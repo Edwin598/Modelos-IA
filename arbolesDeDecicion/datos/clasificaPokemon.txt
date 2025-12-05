@@ -1,0 +1,9 @@
+# ataque,defensa,velocidad,vida,tipo
+0.8,0.6,0.7,0.8,fuego
+0.7,0.8,0.5,0.9,agua
+0.6,0.7,0.8,0.7,planta
+0.9,0.5,0.9,0.6,fuego
+0.5,0.9,0.6,0.8,agua
+0.7,0.6,0.7,0.7,planta
+0.8,0.4,0.8,0.5,fuego
+0.4,0.8,0.5,0.9,agua

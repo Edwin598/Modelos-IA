@@ -1,0 +1,10 @@
+# Ejemplo: Clasificación de Frutas
+# Característica 1: Dulzura (0-1)
+# Característica 2: Acidez (0-1)  
+# Target: 0=Manzana, 1=Naranja
+0.2 0.8 0    # Manzana ácida
+0.8 0.3 1    # Naranja dulce
+0.3 0.7 0    # Manzana
+0.7 0.4 1    # Naranja
+0.1 0.9 0    # Manzana muy ácida
+0.9 0.2 1    # Naranja muy dulce

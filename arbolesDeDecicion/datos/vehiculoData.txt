@@ -1,0 +1,9 @@
+# peso,velocidad,capacidad,consumo,tipo
+0.8,0.3,0.2,0.7,camion
+0.3,0.8,0.4,0.9,deportivo
+0.6,0.5,0.7,0.6,sedan
+0.9,0.2,0.9,0.3,camion
+0.2,0.9,0.3,0.8,deportivo
+0.5,0.6,0.8,0.5,sedan
+0.7,0.4,0.1,0.7,camion
+0.4,0.7,0.5,0.7,deportivo

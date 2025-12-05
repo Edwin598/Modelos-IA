@@ -1,0 +1,11 @@
+agnóstico médico simplificado
+# Características: temperatura, presión, glucosa, edad, resultado
+37.0,120,90,45,Normal
+38.5,140,110,60,Fiebre
+36.8,130,95,50,Normal
+39.0,150,130,65,Diabetes
+37.2,125,100,55,Normal
+38.0,135,115,58,Fiebre
+36.5,118,85,42,Normal
+39.5,160,140,70,Diabetes
+37.1,122,92,48,Normal

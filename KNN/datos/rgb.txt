@@ -1,0 +1,12 @@
+# Clasificación de colores por RGB
+# R, G, B, nombre_color
+255,0,0,Rojo
+200,0,0,Rojo_oscuro
+0,255,0,Verde
+0,200,0,Verde_oscuro
+0,0,255,Azul
+0,0,200,Azul_oscuro
+255,255,0,Amarillo
+200,200,0,Amarillo_oscuro
+255,0,255,Magenta
+0,255,255,Cian

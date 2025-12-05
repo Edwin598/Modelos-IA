@@ -1,0 +1,9 @@
+# palabras_gratis,palabras_oferta,urls,signos_exclamacion,clase
+0.9,0.8,0.7,0.9,spam
+0.1,0.2,0.1,0.1,no_spam
+0.8,0.7,0.6,0.8,spam
+0.2,0.3,0.2,0.2,no_spam
+0.7,0.9,0.8,0.7,spam
+0.3,0.1,0.3,0.3,no_spam
+0.95,0.85,0.9,0.95,spam
+0.05,0.15,0.05,0.05,no_spam

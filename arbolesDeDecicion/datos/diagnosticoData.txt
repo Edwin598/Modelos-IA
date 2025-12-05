@@ -1,0 +1,9 @@
+# fiebre,tos,dolor_cabeza,dolor_garganta,enfermedad
+0.9,0.2,0.8,0.1,gripe
+0.3,0.9,0.4,0.8,resfriado
+0.8,0.3,0.7,0.2,gripe
+0.2,0.8,0.3,0.9,resfriado
+0.7,0.4,0.6,0.3,gripe
+0.4,0.7,0.5,0.6,resfriado
+0.95,0.1,0.9,0.05,gripe
+0.1,0.95,0.2,0.95,resfriado

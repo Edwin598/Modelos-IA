@@ -1,0 +1,9 @@
+ctividad según clima
+# temperatura, humedad, viento(km/h), nubosidad(%), actividad
+25,60,10,20,Parque
+30,80,5,80,Playa
+18,70,20,90,Cine
+22,65,15,40,Caminata
+28,75,8,30,Picnic
+16,85,25,100,Leer
+20,55,12,50,Compras

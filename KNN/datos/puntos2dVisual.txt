@@ -1,0 +1,12 @@
+# Dataset simple para visualización 2D
+# x, y, clase (A=cluster1, B=cluster2)
+1.0,1.0,A
+1.2,1.1,A
+0.9,1.3,A
+1.1,0.9,A
+4.0,4.0,B
+4.2,4.1,B
+3.9,4.3,B
+4.1,3.9,B
+2.5,2.5,A
+5.5,1.5,B

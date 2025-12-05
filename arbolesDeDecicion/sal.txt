@@ -1,0 +1,270 @@
+=======================================================
+INFORME DE ÁRBOL DE DECISIÓN
+Fecha: Tue Dec  2 19:35:43 2025
+=======================================================
+
+
+=======================================================
+SISTEMA DE ÁRBOLES DE DECISIÓN EN C
+=======================================================
+Archivo de datos: frutas.data
+Fecha y hora: Tue Dec  2 19:35:43 2025
+
+📥 Cargando dataset: frutas.data
+✅ Dataset cargado exitosamente
+   • Muestras: 8
+   • Características: 4
+   • Clases: 2
+   • Nombres de clases: naranja, manzana
+🔧 Preprocesando datos...
+✅ Datos preprocesados (normalizados a [0,1])
+
+=======================================================
+ANÁLISIS DE DATOS
+=======================================================
+┌──────────────────────────────┬──────────────┬──────────────┐
+│ Clase                        │ Muestras     │ Porcentaje   │
+├──────────────────────────────┼──────────────┼──────────────┤
+│ naranja                      │            4 │         50.0% │
+│ manzana                      │            4 │         50.0% │
+├──────────────────────────────┼──────────────┼──────────────┤
+│ TOTAL                        │            8 │        100.0% │
+└──────────────────────────────┴──────────────┴──────────────┘
+
+DISTRIBUCIÓN DE CLASES:
+========================
+
+Clase                              Muestras   Porcentaje
+------------------------------ ------------ ------------
+naranja                                   4         50.0%
+manzana                                   4         50.0%
+------------------------------ ------------ ------------
+TOTAL                                     8        100.0%
+
+📊 ESTADÍSTICAS DE CARACTERÍSTICAS:
+┌──────────────────────────────┬──────────────┬──────────────┬──────────────┐
+│ Característica               │ Mínimo       │ Máximo       │ Promedio     │
+├──────────────────────────────┼──────────────┼──────────────┼──────────────┤
+│ dulzura                      │       0.1000 │       0.9000 │       0.5000 │
+│ acidez                       │       0.2000 │       0.9000 │       0.5500 │
+│ peso                         │       0.4000 │       0.9000 │       0.6375 │
+│ textura                      │       0.2000 │       0.9000 │       0.5875 │
+└──────────────────────────────┴──────────────┴──────────────┴──────────────┘
+
+ESTADÍSTICAS DE CARACTERÍSTICAS:
+=================================
+
+Característica                     Mínimo      Máximo     Promedio
+------------------------------ ------------ ------------ ------------
+dulzura                              0.1000       0.9000       0.5000
+acidez                               0.2000       0.9000       0.5500
+peso                                 0.4000       0.9000       0.6375
+textura                              0.2000       0.9000       0.5875
+
+=======================================================
+ENTRENAMIENTO DEL MODELO
+=======================================================
+Parámetros:
+  • Profundidad máxima: 5
+  • Mínimo muestras por split: 2
+  • Algoritmo: CART (Clasificación y Árboles de Regresión)
+  • Criterio de división: Impureza Gini
+
+Entrenando árbol de decisión...
+
+Construyendo árbol...
+✅ Árbol de decisión entrenado
+   • Nodos creados: 3
+   • Hojas: 2
+
+=======================================================
+EVALUACIÓN DEL MODELO
+=======================================================
+┌─────────────────────────────────────────────────────────┐
+│ ✅ ENTRENAMIENTO COMPLETADO                            │
+├─────────────────────────────────────────────────────────┤
+│ Precisión: 100.00                                     % │
+│ Tiempo de entrenamiento: 0.000                            s │
+│ Nodos totales: 3                                       │
+│ Hojas: 2                                             │
+│ Profundidad máxima: 5                                  │
+│ Muestras mínimas para split: 2                          │
+│ Muestras totales: 8                                    │
+└─────────────────────────────────────────────────────────┘
+
+ESTADÍSTICAS DEL MODELO:
+----------------------------
+Precisión: 100.00%
+Tiempo de entrenamiento: 0.000s
+Nodos totales: 3
+Hojas: 2
+Profundidad máxima: 5
+Muestras mínimas para split: 2
+Muestras totales: 8
+
+=======================================================
+MATRIZ DE CONFUSIÓN
+=======================================================
+┌──────────────────────────────┐
+│          Pred 0     Pred 1     │
+├──────────────────────────────┤
+│ Real 0    4         0        │
+│ Real 1    0         4        │
+└──────────────────────────────┘
+
+📈 MÉTRICAS ADICIONALES:
+  • Precisión promedio: 100.00%
+  • Recall promedio: 100.00%
+  • F1-Score promedio: 100.00%
+
+MATRIZ DE CONFUSIÓN:
+====================
+
+        Pred 0   Pred 1   
+        ------- ------- 
+Real 0:  4        0       
+Real 1:  0        4       
+
+MÉTRICAS DE EVALUACIÓN:
+======================
+
+Clase 'naranja':
+  • Verdaderos positivos: 4
+  • Falsos positivos: 0
+  • Falsos negativos: 0
+  • Precisión: 100.00%
+  • Recall: 100.00%
+  • F1-Score: 100.00%
+
+Clase 'manzana':
+  • Verdaderos positivos: 4
+  • Falsos positivos: 0
+  • Falsos negativos: 0
+  • Precisión: 100.00%
+  • Recall: 100.00%
+  • F1-Score: 100.00%
+
+MÉTRICAS PROMEDIO:
+  • Precisión promedio: 100.00%
+  • Recall promedio: 100.00%
+  • F1-Score promedio: 100.00%
+
+=======================================================
+IMPORTANCIA DE CARACTERÍSTICAS
+=======================================================
+┌──────────────────────────────┬──────────────┐
+│ Característica               │ Importancia  │
+├──────────────────────────────┼──────────────┤
+│ dulzura                      │     100.00%   │
+│ acidez                       │       0.00%   │
+│ peso                         │       0.00%   │
+│ textura                      │       0.00%   │
+└──────────────────────────────┴──────────────┘
+
+📊 GRÁFICO DE IMPORTANCIA:
+dulzura             : ████████████████████ 100.00%
+acidez              :                      0.00%
+peso                :                      0.00%
+textura             :                      0.00%
+
+IMPORTANCIA DE CARACTERÍSTICAS:
+================================
+
+Característica                 Importancia
+------------------------------ ------------
+dulzura                            100.00%
+acidez                               0.00%
+peso                                 0.00%
+textura                              0.00%
+
+RESUMEN DE IMPORTANCIA:
+-----------------------
+
+Características ordenadas por importancia:
+1. dulzura                  : 100.00%
+2. acidez                   :   0.00%
+3. peso                     :   0.00%
+4. textura                  :   0.00%
+
+=======================================================
+ESTRUCTURA DEL ÁRBOL
+=======================================================
+Estructura del árbol de decisión:
+(Límite: primeros 4 niveles o 20 nodos)
+
+🌳 ❓ Si dulzura <= 0.3750 (muestras: 8, Gini: 0.500)
+  ├─ 🏁 Hoja: manzana (muestras: 4, Gini: 0.000)
+  ├─ 🏁 Hoja: naranja (muestras: 4, Gini: 0.000)
+
+📊 ESTADÍSTICAS DEL ÁRBOL:
+  • Nodos totales: 3
+  • Hojas: 2
+  • Profundidad máxima: 1
+
+ESTRUCTURA DEL ÁRBOL DE DECISIÓN:
+==================================
+
+Si dulzura <= 0.3750 (muestras: 8, Gini: 0.500)
+  Hoja: manzana (muestras: 4, Gini: 0.000)
+  Hoja: naranja (muestras: 4, Gini: 0.000)
+
+ESTADÍSTICAS DEL ÁRBOL:
+=======================
+Nodos totales: 3
+Hojas: 2
+Profundidad máxima: 1
+Nodos internos: 1
+
+PREDICCIONES PARA TODAS LAS MUESTRAS:
+======================================
+
+ID     dulzura    acidez     peso       textura    Clase Real      Predicción     Resultado 
+---    ---------  ---------  ---------  ---------  -------------   -------------   ----------
+1      0.8750     0.1429     0.6000     1.0000     naranja         naranja         CORRECTO  
+2      0.1250     0.8571     0.4000     0.1429     manzana         manzana         CORRECTO  
+3      0.7500     0.2857     0.8000     0.8571     naranja         naranja         CORRECTO  
+4      0.2500     0.7143     0.2000     0.2857     manzana         manzana         CORRECTO  
+5      1.0000     0.0000     1.0000     1.0000     naranja         naranja         CORRECTO  
+6      0.0000     1.0000     0.0000     0.0000     manzana         manzana         CORRECTO  
+7      0.6250     0.4286     0.6000     0.7143     naranja         naranja         CORRECTO  
+8      0.3750     0.5714     0.2000     0.4286     manzana         manzana         CORRECTO  
+
+RESUMEN DE PREDICCIONES:
+========================
+Muestras totales: 8
+Predicciones correctas: 8
+Predicciones incorrectas: 0
+Precisión: 100.00%
+
+=======================================================
+EJEMPLO DE PREDICCIÓN
+=======================================================
+Muestra de ejemplo:
+  dulzura = 0.8750 (original: 0.8000)
+  acidez = 0.1429 (original: 0.3000)
+  peso = 0.6000 (original: 0.7000)
+  textura = 1.0000 (original: 0.9000)
+
+Clase real: naranja
+Predicción: naranja
+✅ Predicción CORRECTA
+
+🔍 Ruta de decisión:
+Nivel 0: dulzura > 0.3750 → Derecha
+
+
+RESUMEN FINAL:
+===============
+Modelo entrenado exitosamente.
+Precisión final: 100.00%
+Total de muestras procesadas: 8
+Tamaño del árbol: 3 nodos (2 hojas)
+
+✨ Proceso completado exitosamente!
+   Resultados guardados en: sal.txt
+   Para usar con otro archivo: ./programa datos.txt
+   Para ayuda: ./programa -h
+
+=======================================================
+Fin del informe
+=======================================================

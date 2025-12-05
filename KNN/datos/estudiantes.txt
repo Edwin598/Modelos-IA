@@ -1,0 +1,11 @@
+probación
+# Características: horas_estudio, asistencia(%), nota_parcial, nota_final, aprobado(SI/NO)
+10,80,65,72,SI
+5,60,45,55,NO
+15,90,75,80,SI
+8,70,58,62,SI
+3,50,40,48,NO
+20,95,85,88,SI
+7,65,52,60,SI
+4,55,42,50,NO
+12,85,70,75,SI

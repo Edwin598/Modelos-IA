@@ -1,0 +1,10 @@
+# Clasificación de vehículos
+# Características: longitud, peso, velocidad_max, cilindrada, tipo
+4.5,1200,180,1600,Auto
+4.8,1500,200,2000,Auto
+5.2,1800,220,2500,Camioneta
+6.0,2500,160,3000,Camion
+3.8,1000,210,1400,Auto
+5.5,2200,170,2800,Camion
+4.3,1300,190,1800,Auto
+5.8,2400,155,3200,Camion

@@ -1,0 +1,13 @@
+taset de frutas - Clasificación por peso y color
+# Características: peso(g), diámetro(cm), dulzura(1-10), color(0=verde,1=rojo,2=amarillo), clase
+150,8,7,0,Manzana_verde
+180,9,8,0,Manzana_verde
+130,7,6,1,Manzana_roja
+160,8,9,1,Manzana_roja
+120,6,4,1,Cereza
+90,2,8,1,Cereza
+200,10,5,2,Plátano
+220,11,6,2,Plátano
+250,12,3,2,Plátano
+300,15,2,0,Sandía
+280,14,3,0,Sandía

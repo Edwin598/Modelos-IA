@@ -1,0 +1,25 @@
+LOG DE ENTRENAMIENTO
+====================
+
+Fecha: Wed Dec  3 06:15:03 2025
+Duración: 0.00 segundos
+
+MODELO:
+  Nombre: Modelo_20251203_061503
+  Algoritmo: CART
+
+DATASET:
+  Muestras: 8
+  Características: 4
+  Clases: 2
+
+PARÁMETROS:
+  Profundidad máxima: 5
+  Mínimo muestras por split: 2
+  Mínimo muestras por hoja: 1
+
+RESULTADOS:
+  Accuracy: 1.0000
+  Nodos: 3
+  Hojas: 2
+  Profundidad: 1

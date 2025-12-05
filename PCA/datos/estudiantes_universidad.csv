@@ -1,0 +1,16 @@
+horas_estudio,promedio,asistencia,participacion,rendimiento
+4,5.2,0.6,0.2,bajo
+5,5.5,0.5,0.3,bajo
+3,4.8,0.4,0.1,bajo
+6,5.8,0.7,0.4,bajo
+4,5.0,0.5,0.2,bajo
+8,7.2,0.8,0.6,medio
+9,7.5,0.9,0.7,medio
+7,6.8,0.7,0.5,medio
+8,7.0,0.8,0.6,medio
+9,7.3,0.9,0.7,medio
+12,8.8,0.95,0.9,alto
+14,9.2,0.98,0.95,alto
+11,8.5,0.9,0.8,alto
+13,9.0,0.96,0.92,alto
+15,9.5,1.0,1.0,alto
